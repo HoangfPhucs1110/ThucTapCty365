@@ -1,3 +1,8 @@
 export default function Home() {
-  return <h2>Trang chủ</h2>;
+  return (
+    <div>
+      <h2>Trang chủ</h2>
+      <p>Đây là trang chính của ứng dụng React Router DOM demo.</p>
+    </div>
+  );
 }
