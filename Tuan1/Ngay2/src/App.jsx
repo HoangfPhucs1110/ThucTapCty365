@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
+import SearchBox from "./components/SearchBox";
 
 export default function App() {
   return (
@@ -14,6 +15,11 @@ export default function App() {
       <section>
         <h2>React Hook Nâng cao</h2>
         <TodoList />
+      </section>
+
+      <section>
+        <h2>React 18+ Hooks</h2>
+        <SearchBox />
       </section>
     </div>
   );
