@@ -33,7 +33,6 @@ function clearCompleted(){ setTodos(prev=> prev.filter(t=> !t.done)) }
 
 return (
 <div className='container' style={container}>
-{/* Toolbar đặt ở trên phần ghi chú */}
 <Toolbar theme={theme} filter={filter} count={view.length} total={todos.length}
 onChangeTheme={onChangeTheme}
 onChangeFilter={setFilter}
